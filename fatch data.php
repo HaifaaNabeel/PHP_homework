@@ -41,10 +41,10 @@ echo '<div class="container mt-5">
 <h1>Users</h1>
 <table width="500" cellpadding=5celspacing=5 border=1>
 <tr>
-<th>ID#</th>
-<th>First Name</th>
-<th>User Name</th>
-<th>Password</th>
+<td>ID#</td>
+<td>First Name</td>
+<td>User Name</td>
+<td>Password</td>
 </tr>';
 $result=mysqli_query($connect,"select * from users");
 
